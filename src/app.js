@@ -19,7 +19,7 @@ app.use('/api/records', recordRoutes);
 
 // 4. Default Root Route
 app.get('/', (req, res) => {
-  res.send('Finance API is running...');
+  res.send('Finance Dashboard API is Live and Running!...');
 });
 
 // 5. Global Error Handler (MUST BE LAST)
